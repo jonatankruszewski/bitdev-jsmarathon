@@ -13,13 +13,13 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "training/ui/button"
+        "rootDir": "jonakru/ui/button"
     },
     "ui/card": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "training/ui/card"
+        "rootDir": "jonakru/ui/card"
     },
     "$schema-version": "14.9.0"
 }
