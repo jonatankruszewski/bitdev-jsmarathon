@@ -66,7 +66,7 @@ Every time a new component is added, there is the need to compile again.
 
 - Don't use relative imports
 - Use the package name from the local server
-- 
+
 ## Checking the status
 
 ```sh
@@ -80,6 +80,8 @@ bit status
 ```sh
 bit tag --all [version]
 ```
+
+Tagging uses semantic's syntax. E.g. 1.0.0
 
 ## Create an account in [Bit.dev](http://bit.dev)
 
@@ -97,10 +99,66 @@ bit tag --all [version]
 bit login
 ```
 
+## Create a scope in bit.dev
+
+- Create a scope for the project.
+- Copy the scope project: jonakru.training and paste it on 'defaultScope' of workspace.jsonc
+
+## Link local with remote
+
 ```sh
 bit link
 ```
 
+## Update imports to be from the account/project
+
+In the components that require other imports, update the import to update from remote and not from local.
+
+For example, in the card component:
+
+```js
+import { Button } from "@jonakru/ui.button";
+```
+
+to
+
+```js
+import { Button } from "@jonakru/training.ui.button";
+```
+
+## check the status
+
+```sh
+bit compile
+```
+
+If neccesary, compile again
+
+## Compile again
+
+```sh
+bit compile
+```
+
+## Tag again
+
+```sh
+bit tag --all 1.1.0
+```
+
+- Similar to ``` git commit ```
+
+## Publish the component to the bit account
+
 ```sh
 bit export
 ```
+
+- Similar to ``` git push ```
+
+## Component usage
+
+- In the bit.dev website, you can copy the component address.
+- It has been both added to yarn and npm.
+- You can also import / install it to a bit project
+- 
