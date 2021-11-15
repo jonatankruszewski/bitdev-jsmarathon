@@ -14,7 +14,9 @@ bit init --harmony
 "teambit.react/react":{}
 ```
 
-## Do not modify the .bitmap file
+## Important Note
+
+Do not modify the .bitmap file
 
 ## Add dependencies
 
@@ -126,7 +128,7 @@ to
 import { Button } from "@jonakru/training.ui.button";
 ```
 
-## check the status
+## Check the status
 
 ```sh
 bit compile
@@ -161,4 +163,3 @@ bit export
 - In the bit.dev website, you can copy the component address.
 - It has been both added to yarn and npm.
 - You can also import / install it to a bit project
-- 
