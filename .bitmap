@@ -11,13 +11,13 @@
 {
     "ui/button": {
         "scope": "",
-        "version": "",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "jonakru/ui/button"
     },
     "ui/card": {
         "scope": "",
-        "version": "",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "jonakru/ui/card"
     },
