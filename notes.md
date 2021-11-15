@@ -52,18 +52,33 @@ bit install @testing-library/react
 bit start
 ```
 
+## Add a new component
+
+```sh
+bit create react-component ui/card
+# stop the server
+bit compile
+```
+
+Every time a new component is added, there is the need to compile again.
+
+## Using another component
+
+- Don't use relative imports
+- Use the package name from the local server
+- 
 ## Checking the status
 
 ```sh
 bit status
 ```
 
-- Should show an ok for all the components
+- Should show an ok for all the components. If so, you may want to tag it as a version.
 
 ## Tag a version
 
 ```sh
-bit tag -all [version]
+bit tag --all [version]
 ```
 
 ## Create an account in [Bit.dev](http://bit.dev)
