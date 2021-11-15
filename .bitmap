@@ -10,14 +10,14 @@
 
 {
     "ui/button": {
-        "scope": "",
+        "scope": "jonakru.training",
         "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "jonakru/ui/button"
     },
     "ui/card": {
-        "scope": "",
-        "version": "1.0.0",
+        "scope": "jonakru.training",
+        "version": "1.1.0",
         "mainFile": "index.ts",
         "rootDir": "jonakru/ui/card"
     },

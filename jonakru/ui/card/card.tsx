@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./card.module.scss";
-import { Button } from "@jonakru/ui.button";
+import { Button } from "@jonakru/training.ui.button";
 
 export type CardProps = {
   /**
