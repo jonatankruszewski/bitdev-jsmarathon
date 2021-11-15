@@ -15,5 +15,11 @@
         "mainFile": "index.ts",
         "rootDir": "training/ui/button"
     },
+    "ui/card": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "training/ui/card"
+    },
     "$schema-version": "14.9.0"
 }
