@@ -1,16 +1,21 @@
-import React from 'react';
+import React from "react";
+import styles from "./button.module.scss";
 
 export type ButtonProps = {
   /**
    * a text to be rendered in the component.
    */
-  text: string
+  text: string;
+  /**
+   * sets primary / secondary color
+   */
+  importance?: "primary" | "secondary";
 };
 
-export function Button({ text }: ButtonProps) {
+export function Button({ text, importance }: ButtonProps) {
   return (
-    <div>
+    <button data-variation={importance || "primary"} className={styles.button}>
       {text}
-    </div>
+    </button>
   );
 }
